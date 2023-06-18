@@ -6,8 +6,8 @@
  */
 int main(void)
 {
-	int a = strlen("and that piece of art is useful\" - Dora Korpar, 2015-10-19");
-	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19", a);
+	int a = strlen("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
+	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", a);
 
 	return (1);
 }
