@@ -1,8 +1,10 @@
 #include <stdio.h>
 /**
- * main - description for the program
+ * main - Entry point
+ * Description: 'the program's prints a to z
+ * without e and q'
  *
- * return: 0 - if correct it returns 0
+ * Return: 0 (successful)
  */
 int main(void)
 {
