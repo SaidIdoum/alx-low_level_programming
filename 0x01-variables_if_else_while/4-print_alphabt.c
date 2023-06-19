@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - description
+ * main - description for the program
  *
- * return: 0
+ * return: 0 - if correct it returns 0
  */
 int main(void)
 {
