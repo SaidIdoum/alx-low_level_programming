@@ -6,7 +6,7 @@
  */
 int add(i, j)
 {
-	int i, j, Sum;
+	int Sum;
 
 	Sum = i + j;
 	return (Sum);
