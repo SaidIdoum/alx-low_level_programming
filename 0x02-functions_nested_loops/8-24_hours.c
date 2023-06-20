@@ -21,8 +21,6 @@ void jack_bauer(void)
 					_putchar(dm + '0');
 					_putchar(m + '0');
 					_putchar('\n');
-					if (dh != 2 && h != 3 && dm != 5 && m != 9)
-						break
 				}
 			}
 		}
