@@ -4,7 +4,7 @@
  * @int: parameters
  * * Return: add if sum is added
  */
-int add(i, j)
+int add(int i, int j)
 {
 	int Sum;
 
