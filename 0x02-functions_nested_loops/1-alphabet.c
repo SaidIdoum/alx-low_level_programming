@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main -  print a to z and new line
+ * main: -  print a to z and new line
  *
  * Return: void
  */
