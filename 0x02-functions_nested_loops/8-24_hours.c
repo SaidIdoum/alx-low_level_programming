@@ -30,20 +30,20 @@ void jack_bauer(void)
 		else
 		{
 			for (h = 0; h <= 3; h++)
-                        {
-                                for (dm = 0 ; dm <= 5; dm++)
-                                {
-                                        for (m = 0; m <= 9; m++)
-                                        {
-                                                _putchar(dh + '0');
-                                                _putchar(h + '0');
-                                                _putchar(':');
-                                                _putchar(dm + '0');
-                                                _putchar(m + '0');
-                                                _putchar('\n');
-                                        }
-                                }
-                        }
+			{
+				for (dm = 0 ; dm <= 5; dm++)
+				{
+					for (m = 0; m <= 9; m++)
+					{
+						_putchar(dh + '0');
+						_putchar(h + '0');
+						_putchar(':');
+						_putchar(dm + '0');
+						_putchar(m + '0');
+						_putchar('\n');
+					}
+				}
+			}
 		}
 	}
 }
