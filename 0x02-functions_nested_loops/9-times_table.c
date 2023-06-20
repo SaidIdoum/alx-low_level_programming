@@ -18,7 +18,7 @@ void times_table(void)
 				_putchar(' ');
 				_putchar(R + '0');
 			}
-			else if (R >= 10 and <= 81)
+			else if (R >= 10 && <= 81)
 			{
 				_putchar(' ');
 				_putchar((R / 10) + '0');
