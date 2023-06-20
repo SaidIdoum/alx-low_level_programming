@@ -5,9 +5,4 @@
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
-#ifndef MAIN_H
-#define MAIN_H
-
 int _putchar(char c);
-
-#endif /* MAIN_H */
