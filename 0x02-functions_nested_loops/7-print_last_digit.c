@@ -9,5 +9,5 @@ int print_last_digit(int i)
 	int r;
 
 	r = i % 10;
-	return (0);
+	return (r);
 }
