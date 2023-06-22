@@ -2,9 +2,9 @@
 /**
  * _isdigit - sees if letter entered is a digit
  * @c: character entered
- * Return: 1 if upper and 0 otherwise
+ * Return: 1 if digit and 0 otherwise
  */
-int _isupper(int c)
+int _isdigitr(int c)
 {
 	if (c >= '0' && c <= '9')
 	{
