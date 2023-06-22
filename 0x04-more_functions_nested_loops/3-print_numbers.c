@@ -3,7 +3,7 @@
  * print_numbers - description
  * Return: void
  */
-void print_numbers(void)
+void print_numbers()
 {
 	int i;
 
