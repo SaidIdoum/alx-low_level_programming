@@ -4,7 +4,7 @@
  * @c: character entered
  * Return: 1 if digit and 0 otherwise
  */
-int _isdigitr(int c)
+int _isdigit(int c)
 {
 	if (c >= '0' && c <= '9')
 	{
