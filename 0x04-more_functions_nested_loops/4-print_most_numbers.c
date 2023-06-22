@@ -13,7 +13,6 @@ void print_most_numbers(void)
 		{
 			i++;
 		}
-			_putchar(i + '0');
+			_putchar(i);
 	}
-	return (void);
 }
