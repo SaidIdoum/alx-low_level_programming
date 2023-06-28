@@ -3,7 +3,7 @@
  * main - desc
  * Return: 0
  */
-int main()
+int main(void)
 {
 	long int n;
 	int i;
@@ -18,10 +18,10 @@ int main()
 	{
 		while (n % i == 0)
 		{
-		printf("%d, ", i);
-		n = n / i;
+			n = n / i;
 		}
 	}
+	printf("%d" , i);
 	printf("\n");
 	return (0);
 }
