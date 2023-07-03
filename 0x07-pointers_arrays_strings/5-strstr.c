@@ -10,14 +10,14 @@ char *_strstr(char *haystack, char *needle)
 	char *begin = haystack;
 	char *substring = needle;
 
-	*begin = haystack;
-	*substring = needle;
 	if (*needle == '\0')
 	{
 		return (haystack);
 	}
 	while (*haystack)
 	{
+		begin = haystack;
+		substring = needle;
 		while (*haystack && *substring && *haystack == *substring)
 		{
 			haystack++;
