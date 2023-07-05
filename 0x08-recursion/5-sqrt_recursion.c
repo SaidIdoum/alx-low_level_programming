@@ -1,4 +1,5 @@
 #include "main.h"
+int _sqrt_guess(int n, int guess);
 /**
  * _sqrt_recursion - desc
  * @n: par
