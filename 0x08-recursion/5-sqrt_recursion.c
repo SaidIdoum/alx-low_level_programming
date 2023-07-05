@@ -38,11 +38,18 @@ int _sqrt_guess(int n, int start, int finish)
 		{
 			return (mid);
 		}
-		if (mid * mid < n)
+		else if (mid * mid < n)
 		{
+			if (start == mid)
+			{
+				return (mid);
+			}
 			return (_sqrt_guess(n, mid + 1, finish));
 		}
+		else
+		{
 		return (_sqrt_guess(n, start, mid - 1));
+		}
 	}
 	return (-1);
 }
