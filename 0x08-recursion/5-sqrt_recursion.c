@@ -1,5 +1,5 @@
 #include "main.h"
-int _sqrt_guess(int n, int guess);
+int _sqrt_guess(int n, int start; int finish);
 /**
  * _sqrt_recursion - desc
  * @n: par
@@ -7,8 +7,6 @@ int _sqrt_guess(int n, int guess);
  */
 int _sqrt_recursion(int n)
 {
-	int guess, result;
-
 	if (n < 0)
 	{
 		return (-1);
