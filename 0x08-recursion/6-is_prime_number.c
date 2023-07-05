@@ -28,5 +28,5 @@ int is_prime_checker(int n, int div)
 	{
 		return (0);
 	}
-	return (is_prime_helper(n, divisor + 1));
+	return (is_prime_checker(n, div + 1));
 }
