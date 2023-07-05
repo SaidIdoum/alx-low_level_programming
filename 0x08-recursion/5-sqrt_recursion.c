@@ -36,8 +36,12 @@ int _sqrt_guess(int n, int guess)
 	{
 		return (guess);
 	}
+	else if (guess * guess > n)
+	{
+		return (_sqrt_guess(n, guess -1));
+	}
 	else
 	{
-		return (_sqrt_guess(n, guess - 1));
+		return (_sqrt_guess(n, guess + 1));
 	}
 }
