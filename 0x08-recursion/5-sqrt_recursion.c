@@ -20,6 +20,12 @@ int _sqrt_recursion(int n)
 	}
 	return (result);
 }
+/**
+ * _sqrt_guess - desc
+ * @n: par
+ * @guess: guess
+ * Return: int
+ */
 int _sqrt_guess(int n, int guess)
 {
 	if (guess * guess == n)
