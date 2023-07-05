@@ -19,29 +19,32 @@ int _sqrt_recursion(int n)
 	}
 	else
 	{
-		guess = (n / 2) + 1;
-		result = _sqrt_guess(n, guess);
-		return (result);
+		return (_sqrt_guess(n, 0, n));
 	}
 }
 /**
  * _sqrt_guess - desc
+ * @start: par
+ * @finish: guess
  * @n: par
- * @guess: guess
  * Return: int
  */
-int _sqrt_guess(int n, int guess)
+int _sqrt_guess(int n, int start, int finish)
 {
-	if (guess * guess == n)
+	int mid;
+
+	if (start <= finish)
 	{
-		return (guess);
+		mid = (start + finish) / 2;
+		if (mid * mid == n)
+		{
+			return (mid);
+		}
+		if (mid * mid < n)
+		{
+			return (_sqrt_guess(n, mid + 1, finish));
+		}
+		return (_sqrt_guess(n, start, mid - 1));
 	}
-	else if (guess * guess > n)
-	{
-		return (_sqrt_guess(n, guess - 1));
-	}
-	else
-	{
-		return (_sqrt_guess(n, guess + 1));
-	}
+	return (-1);
 }
