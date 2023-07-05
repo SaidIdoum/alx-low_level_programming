@@ -17,9 +17,12 @@ int _sqrt_recursion(int n)
 	{
 		return (n);
 	}
-	guess = (n / 2) + 1;
-	result = _sqrt_guess(n, guess);
-	return (result);
+	else
+	{
+		guess = (n / 2) + 1;
+		result = _sqrt_guess(n, guess);
+		return (result);
+	}
 }
 /**
  * _sqrt_guess - desc
@@ -33,12 +36,8 @@ int _sqrt_guess(int n, int guess)
 	{
 		return (guess);
 	}
-	else if (guess * guess > n)
-	{
-		return (-1);
-	}
 	else
 	{
-		return (_sqrt_guess(n, guess + 1));
+		return (_sqrt_guess(n, guess - 1));
 	}
 }
