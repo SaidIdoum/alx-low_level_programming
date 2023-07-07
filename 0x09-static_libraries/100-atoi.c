@@ -2,12 +2,12 @@
 /**
  * _atoi - desc
  * @s: par
- * Return sign of result
+ * Return: sign of result
  */
 int _atoi(char *s)
 {
 	int Sign_of_nr, Result_integer, i, temp;
-       	
+
 	Sign_of_nr = 1;
 	Result_integer = 0;
 	i = 0;
