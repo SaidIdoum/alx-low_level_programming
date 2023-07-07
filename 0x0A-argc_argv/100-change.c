@@ -1,11 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
- * main - Entry point of the program
- * @argc: Number of command-line arguments
- * @argv: Array of command-line arguments
- *
+ * main - desc
+ * @argc: argum
+ * @argv: argu
  * Return: 0 on success, 1 on error
  */
 int main(int argc, char *argv[])
@@ -52,4 +50,3 @@ int main(int argc, char *argv[])
 	printf("%d\n", Nr_of_coins);
 	return (0);
 }
-
