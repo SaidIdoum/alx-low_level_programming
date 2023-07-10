@@ -7,7 +7,8 @@
 char *_strdup(char *str)
 {
 	char *DUPLICATE;
-	unsigned int size, i;
+	int size, i;
+
 	if (str == NULL)
 	{
 		return (NULL);
