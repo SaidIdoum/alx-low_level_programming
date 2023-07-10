@@ -3,7 +3,7 @@
  * argstostr - desc
  * @ac: par
  * @av: par
- * Return:
+ * Return: ret
  */
 char *argstostr(int ac, char **av)
 {
@@ -42,6 +42,6 @@ char *argstostr(int ac, char **av)
 		str[j] = '\n';
 		j++;
 	}
-	str[j] = '\0';	
+	str[j] = '\0';
 	return (str);
 }
