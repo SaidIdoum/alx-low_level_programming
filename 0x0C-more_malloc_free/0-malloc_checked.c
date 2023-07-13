@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * malloc_checked - desc
+ * malloc_checked - description
  * @b: par
+ * Return: desc
  */
 void *malloc_checked(unsigned int b)
 {
@@ -12,5 +13,5 @@ void *malloc_checked(unsigned int b)
 	{
 		exit(98);
 	}
-	return ptr;
+	return (ptr);
 }
