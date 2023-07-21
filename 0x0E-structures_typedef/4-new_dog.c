@@ -2,31 +2,36 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- * new_dog - desc
- * @name: par
- * @age: par
- * @owner: par
- * Return: desc
+ * new_dog - ffffff 
+ * @name: fffff
+ * @age: fffff
+ * @owner: ffffff
+ * Return: fffffffffff
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
+	dog_t *new_dog;
+
 	if (name == NULL || owner == NULL)
 	{
 		return (NULL);
 	}
-	dog_t *new_dog = malloc(sizeof(dog_t));
 
+	new_dog = malloc(sizeof(dog_t));
 	if (new_dog == NULL)
 	{
 		return (NULL);
 	}
+
 	new_dog->name = strdup(name);
 	if (new_dog->name == NULL)
 	{
 		free(new_dog);
 		return (NULL);
 	}
+
 	new_dog->age = age;
+
 	new_dog->owner = strdup(owner);
 	if (new_dog->owner == NULL)
 	{
@@ -34,5 +39,6 @@ dog_t *new_dog(char *name, float age, char *owner)
 		free(new_dog);
 		return (NULL);
 	}
+
 	return (new_dog);
 }
