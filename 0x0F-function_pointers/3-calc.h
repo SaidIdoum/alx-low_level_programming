@@ -4,18 +4,16 @@
  * struct op - desc
  * @op: qsq
  * @f: qsdqsdq
+ * op_add - ssss.
+ * @a: sssss
+ * @b: ssssss
+ * Return: ss.
  */
 typedef struct op
 {
 	char *op;
 	int (*f)(int a, int b);
 } op_t;
-/**
- * op_add - ssss.
- * @a: sssss
- * @b: ssssss
- * Return: ss.
- */
 int op_add(int a, int b);
 /**
  * op_sub - ssss.
